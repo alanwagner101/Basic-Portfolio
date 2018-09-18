@@ -43,10 +43,19 @@ body {
 }
 
 .navbuttons {
-    width: 75px;
+    width: 70px;
     height: 60px;
     float: right;
     padding-top: 15px;
+}
+
+.navdivide {
+    width: 2px;
+    height: 60px;
+    float: right;
+    padding-top: 14px;
+    margin-right: 10px;
+    color: #cccccc;
 }
 
 .Main-Content1 {
