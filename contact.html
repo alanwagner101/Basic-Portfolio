@@ -25,11 +25,9 @@
             </header>
 
             <!--3 buttons; about, portfolio, and contact(current page). I will change the "class" into seperate "ids" when and if the time comes to add java, for now its just saving space-->
-            <p class="navbuttons">Contact</p>
-            <p class="navdivide">&nbsp;|&nbsp;</p>
-            <p class="navbuttons">Portfolio</p>
-            <p class="navdivide">&nbsp;|&nbsp;</p>
-            <p class="navbuttons">About</p>
+            <a href="contact.html"><button class="navbutton1" type="button">Contact</button></a>
+            <a href="portfolio.html"><button class="navbutton2" type="button">Portfolio</button></a>
+            <a href="index.html"><button class="navbutton3" type="button">About</button></a>
 
         </div>
 
@@ -48,14 +46,14 @@
 
             <!--Input Section. name, email, and message.-->
             <h2 class="input">Name</h2>
-            <p class="block">John Smith</p>
+            <input type="text" class="block" name="First-Last-Name" Placeholder="John Smith">
             <h2 class="input">Email</h2>
-            <p class="block">examply@gmail.com</p>
+            <input type="text" class="block" name="email" placeholder="example@gmail.com">
             <h2 class="input">Message</h2>
-            <p id="block2"></p>
+            <textarea id="block2" name="message"></textarea>
 
             <!--Submit button-->
-            <h2 id="submit">Submit</h2>
+            <button id="submit" type="button">Submit</button>
 
         </div>
 
