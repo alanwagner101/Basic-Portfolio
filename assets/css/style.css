@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-image: url("../images/grey_wash_wall.png");
     background-repeat: repeat;
@@ -50,7 +55,7 @@ body {
     width: 960px;
     margin: 0 auto;
     margin-top: -60px;
-    margin-bottom: -150px;
+    margin-bottom: 40px;
     min-height: 100%;
 }
 
@@ -60,8 +65,7 @@ body {
     width: 960px;
     margin: 0 auto;
     margin-top: -60px;
-    margin-bottom: -150px;
-    min-height: 100%;
+    margin-bottom: 40px;
 }
 
 .Main-Content3 {
@@ -70,7 +74,7 @@ body {
     width: 960px;
     margin: 0 auto;
     margin-top: -60px;
-    margin-bottom: -150px;
+    margin-bottom: 40px;
     min-height: 100%;
 }
 
@@ -177,11 +181,16 @@ footer {
     background: #666666;
     color: #eeeeee;
     border-top: 5px solid #4aaaa5;
-    height: 40px;
     margin: 0 auto;
-    padding-top: 40px;
+    height: 40px;
+    padding-top: 30px;
 }
 
-.push {
-    height: 200px;
+.push, .footer {
+    height: 40px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
 }
